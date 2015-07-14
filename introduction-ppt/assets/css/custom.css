@@ -6,6 +6,10 @@
 
 html, body {
   font-size: 32px;
+  background: -webkit-radial-gradient(#555, black);
+  background: -moz-radial-gradient(#555, black);
+  background: -o-radial-gradient(#555, black);
+  background: radial-gradient(#555, black);
 }
 
 #copyright {
@@ -18,4 +22,16 @@ a {
 
 #slideScroll {
   font-size: 16px;
+}
+
+#presentationTitle {
+  font-size: 48px;
+}
+
+#presentationSummary {
+  font-size: 24px;
+}
+
+#presentationAuthor {
+  font-size: 20px;
 }
