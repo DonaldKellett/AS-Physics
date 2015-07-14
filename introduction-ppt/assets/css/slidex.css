@@ -1,0 +1,187 @@
+/*
+  slidex.css
+  Slidex's Main Stylesheet
+  Note: Please do not edit this stylesheet unless the comments say otherwise.  Override this stylesheet with your own custom stylesheet.  Some CSS features can also be set on slidex.js.
+  (c) Donald Leung.  All rights reserved.
+  MIT Licensed
+*/
+
+/* Styles for demo components - feel free to delete it */
+
+#demoAttribution {
+  color: #666;
+  text-decoration: none;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+#demoAttribution:hover {
+  color: #888;
+  text-decoration: none;
+}
+
+#demoQuiz {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #444;
+}
+
+#demoPresentationTitle {
+  font-size: 5em;
+  text-align: center;
+}
+
+/* Basic Styles (DO NOT EDIT UNLESS TOLD OTHERWISE) */
+
+html, body {
+  height: 100%;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+#slideScroll {
+  height: 10%;
+  text-align: center;
+}
+
+#previousSlide {
+  color: black;
+}
+
+#nextSlide {
+  color: black;
+}
+
+#slideWindow {
+  height: 80%;
+}
+
+#copyright {
+  height: 10%;
+  text-align: center;
+}
+
+#slideContent {
+  display: none;
+  visibility: hidden;
+}
+
+#presentationTitle {
+  font-size: 5em;
+  text-align: center;
+}
+
+#presentationSummary {
+  font-size: 2em;
+  text-align: center;
+}
+
+#presentationAuthor {
+  font-style: italic;
+  /* [Begin] Feel free to edit the color of the text below! */
+  color: #666;
+  /* [End] Feel free to edit the color of the text below! */
+  text-align: center;
+}
+
+.slideTitle {
+  font-size: 2.5em;
+}
+
+.majorTitle {
+  font-size: 3em;
+  text-align: center;
+}
+
+/* Pre-styled Elements - DO NOT EDIT THESE - OVERRIDE THEM WITH YOUR OWN CUSTOM STYLESHEET */
+
+.button {
+  padding: 10px 15px 10px 15px;
+  background-color: #2a3b4d;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.button:hover {
+  padding: 10px 15px 10px 15px;
+  background-color: #3a4b5d;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.button-special {
+  padding: 10px 15px 10px 15px;
+  background-color: #d4b3a2;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-transition: background-color 2s;
+  -moz-transition: background-color 2s;
+  -o-transition: background-color 2s;
+  transition: background-color 2s;
+}
+
+.button-special:hover {
+  padding: 10px 15px 10px 15px;
+  background-color: #eeaabb;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+b {
+  font-weight: bolder;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+i {
+  font-style: italic;
+}
+
+em {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
+}
+
+code {
+  padding: 2px;
+  background-color: #444;
+  font-family: "Courier New", monospace;
+  border-radius: 5px;
+  border: 1px solid #666;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: pink;
+}
