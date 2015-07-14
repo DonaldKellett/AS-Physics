@@ -1,0 +1,21 @@
+/*
+  custom.css
+  My custom stylesheet for my AS Physics introductory (Slidex) powerpoint
+  (c) Donald Leung.  All rights reserved.
+*/
+
+html, body {
+  font-size: 32px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+a {
+  color: #999;
+}
+
+#slideScroll {
+  font-size: 16px;
+}
