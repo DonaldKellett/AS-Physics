@@ -12,3 +12,18 @@ slidex.init({
   color: "white",
   backgroundColor: "#222"
 });
+
+// Contents Object (allows presenter to skip to desired sections immediately)
+
+var contents = {
+  section1: function() {
+    slidex.currentSlideNumber = 3;
+    slidex.currentSlideId = "slide" + slidex.currentSlideNumber;
+    document.getElementById("slideWindow").innerHTML = document.getElementById(slidex.currentSlideId).innerHTML;
+    document.getElementById("currentSlide").innerHTML = slidex.currentSlideNumber;
+  },
+  section2: function() {return undefined;},
+  section3: function() {return undefined;},
+  spinoff: function() {return undefined;},
+  credits: function() {return undefined;}
+};
