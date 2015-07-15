@@ -34,6 +34,16 @@ var contents = {
     document.getElementById("slideWindow").innerHTML = document.getElementById(slidex.currentSlideId).innerHTML;
     document.getElementById("currentSlide").innerHTML = slidex.currentSlideNumber;
   },
-  spinoff: function() {return undefined;},
-  credits: function() {return undefined;}
+  spinoff: function() {
+    slidex.currentSlideNumber = 21;
+    slidex.currentSlideId = "slide" + slidex.currentSlideNumber;
+    document.getElementById("slideWindow").innerHTML = document.getElementById(slidex.currentSlideId).innerHTML;
+    document.getElementById("currentSlide").innerHTML = slidex.currentSlideNumber;
+  },
+  credits: function() {
+    slidex.currentSlideNumber = 26;
+    slidex.currentSlideId = "slide" + slidex.currentSlideNumber;
+    document.getElementById("slideWindow").innerHTML = document.getElementById(slidex.currentSlideId).innerHTML;
+    document.getElementById("currentSlide").innerHTML = slidex.currentSlideNumber;
+  }
 };
