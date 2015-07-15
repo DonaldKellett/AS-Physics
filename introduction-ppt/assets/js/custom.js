@@ -22,8 +22,18 @@ var contents = {
     document.getElementById("slideWindow").innerHTML = document.getElementById(slidex.currentSlideId).innerHTML;
     document.getElementById("currentSlide").innerHTML = slidex.currentSlideNumber;
   },
-  section2: function() {return undefined;},
-  section3: function() {return undefined;},
+  section2: function() {
+    slidex.currentSlideNumber = 8;
+    slidex.currentSlideId = "slide" + slidex.currentSlideNumber;
+    document.getElementById("slideWindow").innerHTML = document.getElementById(slidex.currentSlideId).innerHTML;
+    document.getElementById("currentSlide").innerHTML = slidex.currentSlideNumber;
+  },
+  section3: function() {
+    slidex.currentSlideNumber = 14;
+    slidex.currentSlideId = "slide" + slidex.currentSlideNumber;
+    document.getElementById("slideWindow").innerHTML = document.getElementById(slidex.currentSlideId).innerHTML;
+    document.getElementById("currentSlide").innerHTML = slidex.currentSlideNumber;
+  },
   spinoff: function() {return undefined;},
   credits: function() {return undefined;}
 };
